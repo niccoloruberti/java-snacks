@@ -10,7 +10,7 @@ public class Snack3 {
 		
 		for(int x = 0; x < numbers.length; x++) {
 			
-			if(x % 2 == 0) {
+			if(x % 2 != 0) {
 				sum += numbers[x];
 			}
 			
